@@ -39,6 +39,14 @@ const addTask = ()=> {
   subContainer.appendChild(task);
     inputText.value = ""; 
 
+    checkbox.addEventListener("change", ()=> {
+      if (checkbox.checked) {
+        taskText.style.textDecoration = "line-through";
+      } else {
+        taskText.style.textDecoration = "none";
+      }
+    })
+
     };
 
     button.addEventListener("click", addTask)
@@ -48,3 +56,5 @@ const addTask = ()=> {
         addTask();
       }
     })
+
+  
