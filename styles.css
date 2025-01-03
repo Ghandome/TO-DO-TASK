@@ -1,0 +1,109 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid black;
+    width: 700px;
+    margin: 0px auto;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+#tracker {
+    width: 600px;
+    height: 50px;
+    border-width: 2px;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.btn {
+    margin-left: -50px;
+    height: 35px;
+    width: 40px;
+}
+
+#tracker::-webkit-input-placeholder {
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    width: fit-content;
+    margin-left: 70px;
+}
+
+ .sub-container{
+    display: none;
+ }
+ 
+
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    margin-top: 20px;
+  }
+
+  
+  
+  .task input[type="checkbox"] {
+    margin-right: 250px;
+  }
+
+  .task span {
+    text-align: center;
+    margin-right: 200px;
+  }
+
+  .task .refuse {
+    margin-left: 10px;
+  }
+  
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    #tracker {
+        width: 85%;
+        margin-left: 10%;
+    }
+
+    .sub-container {
+        margin-right: 10%;
+    } 
+
+}
+
+
+  
+
+
+   
